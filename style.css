@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+	margin: 0;
+ 	padding: 0;
+}
+nav{
+  background-color: #263340;
+}
+.navbar-brand span{
+  font-weight: 600;
+  font-family: Arial;
+  padding: 5px;
+}
+.navbar-brand img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.navbar-nav li a{
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.active, .navbar-nav li:hover{
+  border-bottom: 3px solid white;
+  color: blue;
+}
+
+i{
+  color: #fff;
+}
+  #navbar-toggler-icon{
+  
+}
+
+/*section{
+  height: 100
+}*/
+form {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  justify-content: center;
+}
+
+/*COVER IMAGE SECTION*/
+#coverimg{
+  background:#263340;
+ /* padding-bottom: 40px; */
+/* height:95vh;*/
+}
+.carousel{
+
+}
+
+.carousel-item img{
+  height: 600px;
+}
+
+h1{
+  text-align: center;
+  padding: 40px;
+  font-weight: 600;
+}
+
+
+/*Services section*/
+
+#services img{
+  width: 100%;
+  height: 150px;
+}
+section{
+  margin: 40px 0px;
+}
+.row{
+  margin-left: 10px;
+}
+
+#morebtn{
+}
+
+/*WHY CHOSE US Section*/
+#about{
+  height: 100vh;
+  margin-top: 160px;
+}
+#about img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+/*testimonials section*/
+#testimonials{
+  height: 100vh;
+}
+
+#clients img{
+  border-radius: 50%;
+  float: left;
+}
+
+#clients{
+  justify-content: start;
+}
+
+#clients .sideborder{
+  border-left: 3px solid #263340;
+  margin: 10px; 
+}
+/*SOCIAL MEDIA ICON*/
+#social-media{
+  margin: 80px 0px;
+}
+#social-media img{
+  width: 50px;
+  height: 50px;
+}
+
+#social-media a{
+  padding: 20px;
+}
+
+
+
+
+/*Footer Section*/
+footer{
+  background-color: #263340;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+footer img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+footer #contact img{
+  width: 30px;
+  height: 30px;
+}
+
+footer li{
+  padding: 8px;
+}
+form a button{
+  padding: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  background-color: yellow;
+  border-color: inherit;
+}
